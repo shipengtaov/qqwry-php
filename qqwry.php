@@ -154,4 +154,10 @@ class qqwry{
 		return join('.', $ip);
 	}
 
+	public function __destruct(){
+		if ($this->fd){
+			fclose($this->fd);
+		}
+	}
+
 }
