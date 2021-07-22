@@ -9,4 +9,4 @@
 
 ### License:
 
-Let the Code Free
+WTFPL
